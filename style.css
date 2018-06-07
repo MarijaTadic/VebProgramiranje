@@ -1,0 +1,53 @@
+body{
+  background-image: url('images/lavanda1.jpg');
+  background-size: cover;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	/*color:#6b6b6b;*/
+}
+
+#menu li {
+display: inline-block;
+  background-position: center;
+  width: 210px;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  background-color: white;
+}
+
+li a {
+	padding: 20px;
+	display: inline-block;
+  color: purple;
+  font-size: 50;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+aside {
+	position: fixed;
+	left: 50px;
+	top: 100px;
+	width: 350px;
+	height: 550px;
+	background-image: url('images/dec11.jpg');
+}
+
+section {
+	position: fixed;
+	left: 450px;
+	top: 100px;
+	height: 550px;
+	width: 870px;
+	color: white;
+	font-size: 30;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
