@@ -5,12 +5,22 @@
 	<title> Lavanda Shop </title>
 	<link rel="stylesheet" href="style.css" type="text/css">
 
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<script>
+		$(document).ready(function(){
+    	$("button").click(function(){
+        $("#informacije1").fadeToggle("slow");
+				$("#informacije2").fadeToggle("fast");
+    		});
+			});
+	</script>
 </head>
 
 <body>
 
 	<header>
-
 			<ul id="menu">
 				<li><a href="indeks.html">Pocetna</a></li>
 				<li><a href="">Proizvodi</a></li>
@@ -24,11 +34,11 @@
 <aside>
 </aside>
 
-
-
 <section>
 	<h1> Dobrodosli medju mirisne grmove mediterana </h1>
-	<p> Od davnina poznata su lekovita svojstva lavande; lavandom su leceni ljudi koji pate od nesanice,
+
+	<p id="informacije1">
+		Od davnina poznata su lekovita svojstva lavande; lavandom su leceni ljudi koji pate od nesanice,
 		od bolesti nerava, loseg varenja. Stavljali su je u tople kupke, mirisali se njenim etericnim uljem,
 		pili cajeve od njenog cveta, i stavljali je u jela kao dodatak hrani.
 	<br><br>
@@ -45,7 +55,9 @@
   Francuzi su bili prvi koji su namenski sejali i gajili lavandu, ali su čuvari starih recepata lečenja biljem, monasi,
 	preneli lavandu sa juga Evrope u severnoevropske zemlje.
 	<br><br>
-	Lekoviti delovi biljaka su cvetovi i vrhovi stabljika. 
+</p>
+<p id="informacije2">
+	Lekoviti delovi biljaka su cvetovi i vrhovi stabljika.
 	Sadrzi etericno ulje linalilacetata, linalol, tanin i mineralne materije.
 	<br><br>
 	Suvi cvetovi imaju sedativno dejstvo, opustaju, pomazu kod nesanice i uznemirenosti.
@@ -62,6 +74,7 @@
 	<br><br>
 	Lavanda u svakom domu moze imati veliku primenu.
   </p>
+	<button>Vise/manje informacija</button>
 </section>
 
 
@@ -69,10 +82,4 @@
 </body>
 
 </html>
-
-
-
-
-
-
 
