@@ -13,13 +13,43 @@
 
 			<ul id="menu">
 				<li><a href="indeks.html">Pocetna</a></li>
-				<li><a href="">Proizvodi</a></li>
+				<li><a href="proizvodi.php">Proizvodi</a></li>
 				<li><a href="uzgajanje.html">Uzgajanje</a></li>
 				<li><a href="dekoracija.html">Dekoracija</a></li>
-				<li><a href="">Registracija</a></li>
+				<li><a href="registracija.php">Registracija</a></li>
 				<li><a href="kontakt.html">Kontakt</a></li>
 			</ul>
 	</header>
+	
+	
+	<div class="form-control">
+	<form action="contact.php" method="post">
+	<h1> Kontaktirajte nas! </h1>
+	<p><b>Ime:</b> <input type="text" name="yourname" /><br/>
+	<b>Naslov:</b> <input type="text" name="subject" /><br/>
+	<b>E-mail:</b> <input type="text" name="email" /><br/>
+
+	<p>Da li vam se dopada nasa stranica?
+	<input type="radio" name="likeit" value="Yes" checked="checked" /> Da
+	<input type="radio" name="likeit" value="No" /> Ne
+	<input type="radio" name="likeit" value="Not sure" /> Ne zelim da odgovorim</p>
+
+	<p>Kako ste nas pronasli?
+	<select name="how">
+	<option value=""> -- Molimo odaberite -- </option>
+	<option>Google</option>
+	<option>Yahoo</option>
+	<option>Drugo</option>
+	</select>
+
+	<p><b>Vasa poruka:</b><br />
+	<textarea name="comments" rows="10" cols="40"></textarea></p>
+
+	<p><input type="submit" value="Posaljite!"></p>
+
+	</form>
+
+ </div>
 
 
 
